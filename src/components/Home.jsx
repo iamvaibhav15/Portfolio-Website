@@ -14,10 +14,10 @@ import { SiGmail } from "react-icons/si";
 
 function Home() {
     const socialMedia = [
-        { id: 1, icon: <BiLogoGmail size={28} />, link: "https://www.facebook.com", color: "hover:text-red-400" },
+        { id: 1, icon: <BiLogoGmail size={28} />, link: "", color: "hover:text-red-400" },
         { id: 2, icon: <FaLinkedinIn size={28} />, link: "https://www.linkedin.com/in/im-vaibhav15/", color: "hover:text-blue-500" },
-        { id: 3, icon: <BsYoutube size={28} />, link: "https://www.youtube.com", color: "hover:text-red-600" },
-        { id: 4, icon: <FaTelegramPlane size={28} />, link: "https://www.telegram.com", color: "hover:text-blue-400" }
+        { id: 3, icon: <BsYoutube size={28} />, link: "", color: "hover:text-red-600" },
+        { id: 4, icon: <FaTelegramPlane size={28} />, link: "", color: "hover:text-blue-400" }
       ];
 
     const skills = [
