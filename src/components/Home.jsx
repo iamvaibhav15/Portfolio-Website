@@ -1,6 +1,5 @@
 import React from 'react'
-import pic from "/Image/NavbarPic.jpg"
-import { FaFacebook } from "react-icons/fa6";
+import pic from "/Image/Vaibhav.png"
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
 import { FaTelegramPlane } from "react-icons/fa";
@@ -85,7 +84,7 @@ function Home() {
             </div>
 
             <div className='md:w-1/2 mt-8 md:mt-0 md:pt-8 md:pl-40 order-1'>
-                <img src={pic} alt="Right-section-image" className='rounded-full w-[450px] h-[450px] md:h-[550px]' />
+                <img src={pic} alt="Right-section-image" className='rounded-full w-[700px] h-[450px] md:h-[550px]' />
             </div>
         </div>
         <br/>

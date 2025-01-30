@@ -64,6 +64,8 @@ function About() {
           innovative ideas & solutions in Front-end Development, Backend Development And Machine Learning Algorithms that exceed client expectations and contribute positively to the digital landscape. I am committed to continuous learning and growth, always seeking new challenges and opportunities to expand my horizons.
         </p>
       </div>
+      <br/><br/>
+      <hr/>
     </div>
   );
 }

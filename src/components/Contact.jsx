@@ -83,6 +83,8 @@ function Contact() {
             </button>
           </form>
         </div>
+        <br/><br/>
+      <hr/>
       </div>
 
     </>

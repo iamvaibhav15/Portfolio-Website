@@ -7,6 +7,7 @@ import express from "/Image/express.png";
 import monogodb from "/Image/mongodb.jpg";
 import react from "/Image/react.webp";
 import node from "/Image/node.png";
+import python from "/Image/python.png";
 
 function Experience() {
   const cardItem = [
@@ -49,6 +50,11 @@ function Experience() {
       id:8,
       logo: mysql,
       name: "MySQL"
+    },
+    {
+      id:9,
+      logo: python,
+      name: "Python"
     }
     
     
@@ -77,6 +83,8 @@ function Experience() {
           ))}
         </div>
       </div>
+      <br/><br/>
+      <hr/>
     </div>
   );
 }
