@@ -5,8 +5,7 @@ function About() {
     <div name="About" className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20">
       <div>
         <h1 className="text-3xl font-bold mb-5">About</h1>
-        <p>
-        Hello, I'm Vaibhav Varshney, a web developer with a passion for the MERN Stack. With a background in IT, I focus on building impactful and visually appealing software solutions. I have experience in front-end and back-end development, creating responsive web applications, and working with technologies like MongoDB, Express.js, React, and Node.js. I strive to deliver high-quality projects that make a lasting impression.
+        <p>Hello, I'm Vaibhav Varshney, a proficient web developer with a deep-rooted passion for the MERN Stack. With a solid foundation in IT, I specialize in crafting dynamic, scalable, and visually compelling software solutions.<br /><br />My expertise spans both front-end and back-end development, enabling me to build responsive, high-performance web applications using MongoDB, Express.js, React, and Node.js. I am committed to writing clean, efficient code and optimizing user experiences to ensure seamless digital interactions.<br />Driven by innovation and a keen eye for detail, I aspire to develop cutting-edge solutions that leave a lasting impact. Let's collaborate and bring ideas to life!
         </p>
         <br />
         <h1 className="text-green-600 font-semibold text-xl">

@@ -1,16 +1,19 @@
 import React from "react";
-import html from "../../public/html.png";
-import css from "../../public/css.jpg";
-import java from "../../public/java.png";
-import javascript from "../../public/javascript.png";
-import oracle from "../../public/oracle.png";
+import html from "/Image/html.png";
+import css from "/Image/css.png";
+import mysql from "/Image/mysql.png";
+import javascript from "/Image/javascript.png";
+import express from "/Image/express.png";
+import monogodb from "/Image/mongodb.jpg";
+import react from "/Image/react.webp";
+import node from "/Image/node.png";
 
 function Experience() {
   const cardItem = [
     {
       id: 1,
       logo: html,
-      name: "MongoDB",
+      name: "HTML",
     },
     {
       id: 2,
@@ -19,19 +22,36 @@ function Experience() {
     },
     {
       id: 3,
-      logo: java,
-      name: "Java",
-    },
-    {
-      id: 4,
       logo: javascript,
       name: "JavaScript",
     },
     {
-      id: 5,
-      logo: oracle,
-      name: "Oracle",
+      id: 4,
+      logo: react,
+      name: "React",
+    },
+    {
+      id:5,
+      logo: node,
+      name: "NodeJS"
+    },
+    {
+      id: 6,
+      logo: express,
+      name: "ExpressJS",
+    },
+    {
+      id:7,
+      logo: monogodb,
+      name: "MongoDB"
+    },
+    {
+      id:8,
+      logo: mysql,
+      name: "MySQL"
     }
+    
+    
   ];
   return (
     <div
