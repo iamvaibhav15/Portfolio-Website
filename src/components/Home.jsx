@@ -10,7 +10,6 @@ import { SiExpress } from "react-icons/si";
 import { RiJavascriptFill } from "react-icons/ri";
 import { ReactTyped } from "react-typed";
 import { BiLogoGmail } from "react-icons/bi";
-import { SiGmail } from "react-icons/si";
 
 function Home() {
     const socialMedia = [
