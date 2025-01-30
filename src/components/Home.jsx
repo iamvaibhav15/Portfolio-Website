@@ -33,7 +33,7 @@ function Home() {
                         loop={true}
                         />
                 </div>
-                <p className='text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id rerum nesciunt mollitia, nostrum ullam omnis inventore. Tenetur odit repellendus eligendi dignissimos necessitatibus unde nihil iste nulla sed alias hic quidem a eius ratione inventore, aperiam sint eaque voluptatum? Illum aut, tenetur maxime sed voluptas accusamus velit delectus fugit quaerat pariatur.
+                <p className='text-justify'>My Name is Vaibhav Varshney
                 </p>
                 <br />
                 <div className='flex flex-col justify-between items-center space-y-6 md:space-y-0 md:flex-row'>
