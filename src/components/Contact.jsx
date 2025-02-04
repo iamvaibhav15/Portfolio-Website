@@ -7,6 +7,7 @@ function Contact() {
   const {
     register,
     handleSubmit,
+    reset,
 
     formState: { errors },
   } = useForm();
@@ -18,8 +19,9 @@ function Contact() {
       message: data.message,
     };
     try {
-      await axios.post("https://getform.io/f/bnleeklb", userInfo);
+      await axios.post("https://getform.io/f/bvrrvmyb", userInfo);
       toast.success("Your message has been sent");
+      reset();
     } catch (error) {
       console.log(error);
       toast.error("Something went wrong");

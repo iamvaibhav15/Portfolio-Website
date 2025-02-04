@@ -33,11 +33,15 @@ function Home() {
             <div className='md:w-1/2 mt-12 md:mt-24 space-y-4 order-2 md:order-1'>
                 <span className='text-xl'>Welcome In My Feed</span>
                 <div className='flex space-x-2 md:space-x-3 text-2xl md:text-4xl'>
-                    <h1>Hello! I'm a </h1>
+                    <h1>Hello! I'm </h1>
                     {/* <span className='text-blue-300 font-bold'> Developer</span> */}
                     <ReactTyped
-                        className='text-violet-500 font-bold'  
-                        strings={["Developer","Freelancer","Programmer","Engineer"]}
+                        className='text-500'  
+                        strings={[`a <span class="text-violet-500 font-bold">Developer</span>`,
+                            `a <span class="text-pink-500 font-bold">Freelancer</span>`,
+                            `a <span class="text-blue-500 font-bold">Programmer</span>`,
+                            `an <span class="text-cyan-500 font-bold">Engineer</span>`
+                        ]}
                         typeSpeed={80}
                         backDelay={1000}
                         backSpeed={80}
@@ -83,7 +87,7 @@ function Home() {
             </div>
 
             <div className='md:w-1/2 mt-8 md:mt-0 md:pt-8 md:pl-40 order-1'>
-                <img src={pic} alt="Right-section-image" className='rounded-full w-[700px] h-[450px] md:h-[550px]' />
+                <img src={pic} alt="Right-section-image" className='rounded-full w-[600px] h-[450px] md:h-[550px]' />
             </div>
         </div>
         <br/>
