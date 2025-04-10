@@ -1,5 +1,5 @@
 import React from 'react'
-import pic from "/Image/Vaibhav.png"
+import pic from "/Image/Dev.jpg"
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
 import { FaTelegramPlane } from "react-icons/fa";

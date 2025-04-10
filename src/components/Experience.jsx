@@ -8,6 +8,7 @@ import monogodb from "/Image/mongodb.jpg";
 import react from "/Image/react.webp";
 import node from "/Image/node.png";
 import python from "/Image/python.png";
+import next from "/Image/next.png"
 
 function Experience() {
   const cardItem = [
@@ -32,9 +33,14 @@ function Experience() {
       name: "React",
     },
     {
-      id:5,
+      id: 5,
+      logo: next,
+      name: "Next",
+    },
+    {
+      id: 5,
       logo: node,
-      name: "NodeJS"
+      name: "NodeJS",
     },
     {
       id: 6,
@@ -42,22 +48,20 @@ function Experience() {
       name: "ExpressJS",
     },
     {
-      id:7,
+      id: 7,
       logo: monogodb,
-      name: "MongoDB"
+      name: "MongoDB",
     },
     {
-      id:8,
+      id: 8,
       logo: mysql,
-      name: "MySQL"
+      name: "MySQL",
     },
     {
-      id:9,
+      id: 9,
       logo: python,
-      name: "Python"
-    }
-    
-    
+      name: "Python",
+    },
   ];
   return (
     <div
@@ -83,8 +87,9 @@ function Experience() {
           ))}
         </div>
       </div>
-      <br/><br/>
-      <hr/>
+      <br />
+      <br />
+      <hr />
     </div>
   );
 }
