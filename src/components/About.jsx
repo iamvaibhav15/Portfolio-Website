@@ -17,7 +17,7 @@ function About() {
           <li>12 <sup>th</sup> , Kendriya Vidyalaya I.V.R.I. Bareilly , 2021 </li>
           <li>Result : 91.8 % </li>
           <li>B.Tech , Indian Institute of Information Technology Surat , 2026</li>
-          <li>CGPA : 8.1 </li>
+          <li>CGPA : 8.32 </li>
 
         </ul>
         <br />
@@ -53,6 +53,9 @@ function About() {
           </li>
           <li>
             Machine Learning Certification , GeeksForGeeks , 2024
+          </li>
+          <li>
+            Winner ArtXAI Imagithon , IIIT Surat , 2025
           </li>
         </ul>
         <br />

@@ -4,20 +4,34 @@ function Portfolio() {
     const projects = [
         {
             id:1,
+            name:"MoneyMuse - Financial Management App",
+            logo:" /Image/moneymuse.png",
+            description:"Developed a full-stack financial management app using React, Node.js, and MongoDB, enabling users to track expenses, set budgets, and gain insights into their financial health",
+            link:"https://github.com/iamvaibhav15/MoneyMuse"
+        },
+        {
+            id:2,
+            name:"Vizulytics - Data Visualization App",
+            logo:" /Image/data-vizualization.png",
+            description:"Created a data visualization application using React and D3.js, allowing users to explore and interact with complex datasets through intuitive visual representations",
+            link:"https://github.com/iamvaibhav15/Vizulytics"
+        },
+        {
+            id:3,
             name:"Pizza Sales Analysis",
             logo:" /Image/pizza.jpg",
             description:"Analyzed pizza sales data using MySQL, uncovering key trends and insights & Executed queries to extract valuable insights from the data",
             link:"https://github.com/iamvaibhav15/Pizza-Sales-Analysis"
         },
         {
-            id:2,
+            id:4,
             name:"DeliverEase",
             logo:" /Image/delivery.webp",
             description:"Utilized Python with Pandas and NumPy for efficient data manipulation and cleaning, resulting instreamlined workflows and accurate insights",
             link:"https://github.com/iamvaibhav15/DeliverEase-Analyzing-Delivery-Partner-Performance"
         },
         {
-            id:3,
+            id:5,
             name:"Portfolio Website",
             logo:" /Image/portfolio.png",
             description:" Developed a comprehensive portfolio website using ReactJs and Tailwind CSS, featuring an interactiveand responsive design",

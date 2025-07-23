@@ -21,7 +21,7 @@ function Navbar() {
                 <ul className='hidden md:flex space-x-8'>
                     {navItems.map(({id,text})=>(
                         <li className="relative group hover:scale-110 duration-200 cursor-pointer" key={id}>
-                        <Link to={text} smooth={true} duration={500} offset={-70} activeClass="active">
+                        <Link to={text} smooth={true} duration={500} offset={-100} activeClass="active">
                           {text}
                           <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-green-500 transition-all duration-500 group-hover:w-full"></span>
                         </Link>
